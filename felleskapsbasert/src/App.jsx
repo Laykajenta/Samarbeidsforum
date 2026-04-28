@@ -1,13 +1,15 @@
 import NavBar from "./components/NavBar";
+import Hero from "./components/Hero";
+import News from "./components/News";
+import Events from "./components/events";
 
 export default function App() {
   return (
     <>
       <NavBar />
-      <main>
-        <h1>Samarbeidsforum</h1>
-        <p>React fungerer 🎉</p>
-      </main>
+      <Hero />
+      <News />
+      <Events />
     </>
   );
 }
