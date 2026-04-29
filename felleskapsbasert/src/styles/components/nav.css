@@ -1,0 +1,71 @@
+/* ── NAV ── */
+
+#main-nav {
+  position: sticky;
+  top: 0;
+  z-index: 200;
+  background: var(--nav);
+  height: 100px;
+  padding: 0 clamp(20px, 5vw, 60px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.22);
+}
+
+.nav-logo {
+  height: 42px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo img {
+  height: 42px;
+  width: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.nav-links li a {
+  display: block;
+  color: var(--tekst-nav);
+  font-size: 1.3rem;
+  padding: 10px 13px;
+  border-radius: 4px;
+}
+
+.nav-links li a.active {
+  color: var(--aktiv-link);
+}
+
+/* hamburger + mobil */
+.hamburger {
+  display: none;
+}
+
+/* media query for nav */
+@media (max-width: 900px) {
+  .nav-links {
+    display: none;
+  }
+
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background: var(--nav);
+    padding: 16px;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+}

@@ -1,0 +1,84 @@
+.events-section {
+  background: var(--bakgrunn);
+  padding: 90px 0;
+}
+.events-section .section-eyebrow {
+  color: var(--tittel);
+}
+.events-section .section-title {
+  color: var(--tekst-nav);
+}
+.events-section .section-sub {
+  color: var(--tekst-nav);
+}
+
+.event-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.event-item {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  border-radius: 6px;
+  padding: 20px 26px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  transition:
+    background 0.2s,
+    border-color 0.2s;
+}
+.event-item:hover {
+  background: rgba(255, 255, 255, 0.09);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+.event-item:hover .event-arrow {
+  color: var(--aktiv-link);
+  transform: translateX(5px);
+}
+
+.event-datebox {
+  flex-shrink: 0;
+  width: 54px;
+  text-align: center;
+}
+.event-datebox .day {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.1rem;
+  font-weight: 600;
+  color: var(--tittel);
+  line-height: 1;
+}
+.event-datebox .month {
+  font-size: 0.68rem;
+  color: var(--tittel);
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+}
+.event-divider {
+  width: 1px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
+}
+.event-info {
+  flex: 1;
+}
+.event-info h4 {
+  color: var(--tittel);
+  font-size: 0.98rem;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+.event-info p {
+  color: var(--tekst-nav);
+  font-size: 0.83rem;
+}
+.event-arrow {
+  color: var(--tekst-nav);
+  font-size: 1.15rem;
+  transition:
+    color 0.2s,
+    transform 0.2s;
+}

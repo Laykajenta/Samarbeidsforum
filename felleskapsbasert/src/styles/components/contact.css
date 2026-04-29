@@ -1,0 +1,207 @@
+/* â”€â”€ ABOUT â”€â”€ */
+.about-section {
+  background: var(--logo-tekst);
+  padding: 90px 0;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+}
+.about-text p {
+  color: var(--mid);
+  font-size: 0.95rem;
+  line-height: 1.8;
+  margin-bottom: 16px;
+}
+.about-text .section-header {
+  margin-bottom: 24px;
+}
+.stat-row {
+  display: flex;
+  gap: 32px;
+  margin-top: 36px;
+  flex-wrap: wrap;
+}
+.stat .num {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: var(--nav);
+  line-height: 1;
+}
+.stat .label {
+  font-size: 0.72rem;
+  color: var(--mid);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+.about-visual {
+  background: var(--nav);
+  border-radius: 12px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-visual::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(ellipse at 65% 30%, var(--tittel), var(--tekst-nav)transparent 60%);
+}
+.about-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px solid rgba(201, 168, 108, 0.18);
+}
+.about-ring.lg {
+  width: 320px;
+  height: 320px;
+}
+.about-ring.sm {
+  width: 160px;
+  height: 160px;
+  right: 20px;
+  bottom: 30px;
+}
+.about-inner {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.about-inner .year {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 5rem;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1;
+}
+.about-inner .year-label {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.45);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+.about-inner .year-sub {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.1rem;
+  color: var(--aktiv-link);
+  margin-top: 10px;
+  font-style: italic;
+}
+.contact-section {
+  padding: 90px 0;
+}
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: start;
+}
+.contact-info h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--nav);
+  margin-bottom: 16px;
+}
+.contact-info p {
+  color: var(--mid);
+  font-size: 0.92rem;
+  line-height: 1.75;
+  margin-bottom: 28px;
+}
+.contact-detail {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 16px;
+}
+.contact-detail .icon-box {
+  width: 38px;
+  height: 38px;
+  background: var(--logo-tekst);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.95rem;
+  flex-shrink: 0;
+}
+.contact-detail .detail-text strong {
+  display: block;
+  font-size: 0.8rem;
+  color: var(--nav);
+  font-weight: 600;
+}
+.contact-detail .detail-text span {
+  font-size: 0.87rem;
+  color: var(--mid);
+}
+
+.contact-form {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 38px;
+  box-shadow: var(--shadow-md);
+}
+.contact-form h3 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--nav);
+  margin-bottom: 24px;
+}
+.form-group {
+  margin-bottom: 16px;
+}
+.form-group label {
+  display: block;
+  font-size: 0.73rem;
+  font-weight: 600;
+  color: var(--nav);
+  margin-bottom: 5px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 11px 14px;
+  border: 1.5px solid #d4e0d8;
+  border-radius: 4px;
+  font-family: "Jost", sans-serif;
+  font-size: 0.9rem;
+  outline: none;
+  resize: vertical;
+  transition:
+    border-color 0.2s,
+    box-shadow 0.2s;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: var(--tekst-nav);
+  box-shadow: 0 0 0 3px rgba(78, 140, 108, 0.1);
+}
+.btn-submit {
+  background: var(--nav);
+  color: var(--white);
+  border: none;
+  border-radius: 4px;
+  padding: 12px 30px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition:
+    background 0.2s,
+    transform 0.15s;
+}
+.btn-submit:hover {
+  background: var(--bakgrunn);
+  transform: translateY(-1px);
+}
