@@ -1,0 +1,17 @@
+@import "./tokens.css";
+
+body {
+  font-family: "Jost", sans-serif;
+  background: var(--bakgrunn);
+  color: var(--svart);
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
