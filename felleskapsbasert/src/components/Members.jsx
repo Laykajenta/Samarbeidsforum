@@ -1,3 +1,4 @@
+import fossumImg from "../assets/members/Fossumlogo.png";
 export default function Members() {
   return (
     <section className="members-section" id="medlemmer">
@@ -11,32 +12,39 @@ export default function Members() {
         </div>
 
         <div className="members-grid">
-            <a
+          <a
             href="https://www.finnmarkskollektivet.no/"
             target="_blank"
             className="member-card"
             rel="noopener noreferrer"
           >
-            <div className="icon">🏡</div>
-            <div className="name"> Finnmarkskollektivet</div>
+            <div className="overlay">
+              <div className="icon">🏡</div>
+              <div className="name"> Finnmarkskollektivet</div>
+            </div>
           </a>
           <a
             href="https://www.fossumkollektivet.no/"
             target="_blank"
             className="member-card"
+            style={{ backgroundImage: `url(${fossumImg})` }}
             rel="noopener noreferrer"
           >
-            <div className="icon">🏡</div>
-            <div className="name"> Fossumkollektivet</div>
+            <div className="overlay">
+              <div className="icon">🏡</div>
+              <div className="name"> Fossumkollektivet</div>
+            </div>
           </a>
- <a
+          <a
             href="https://hiimsmoen.no/"
             target="_blank"
             className="member-card"
             rel="noopener noreferrer"
           >
-            <div className="icon">🏡</div>
-            <div className="name"> Hiimsmoen</div>
+            <div className="overlay">
+              <div className="icon">🏡</div>
+              <div className="name"> Hiimsmoen</div>
+            </div>
           </a>
           <a
             href="https://www.arkenkvinner.no/"
@@ -44,45 +52,45 @@ export default function Members() {
             className="member-card"
             rel="noopener noreferrer"
           >
-            <div className="icon">🏡</div>
-            <div className="name"> Kvinnekollektivet Arken</div>
+            <div className="overlay">
+              <div className="icon">🏡</div>
+              <div className="name"> Kvinnekollektivet Arken</div>
+            </div>
           </a>
-         
-
-         
 
           <a
-               href="https://www.maloykollektivene.no/"
+            href="https://www.maloykollektivene.no/"
             target="_blank"
             className="member-card"
-            rel="noopener noreferrer">
-            <div className="member-card">
-            <div className="icon">🏡</div>
-            <div className="name">Måløykollektivene</div>
-          </div></a>
+            rel="noopener noreferrer"
+          >
+            <div className="overlay">
+              <div className="icon">🏡</div>
+              <div className="name">Måløykollektivene</div>
+            </div>
+          </a>
           <a
-               href="https://www.phoenixhaga.no/"
+            href="https://www.phoenixhaga.no/"
             target="_blank"
             className="member-card"
-            rel="noopener noreferrer">
-            <div className="member-card">
-            <div className="icon">🏡</div>
-            <div className="name">Phonix Haga</div>
-          </div></a>
+            rel="noopener noreferrer"
+          >
+            <div className="overlay">
+              <div className="icon">🏡</div>
+              <div className="name">Phoenix Haga</div>
+            </div>
+          </a>
           <a
-               href="https://renavangen.no/"
+            href="https://renavangen.no/"
             target="_blank"
             className="member-card"
-            rel="noopener noreferrer">
-            <div className="member-card">
-            <div className="icon">🏡</div>
-            <div className="name">Renåvangen</div>
-          </div></a>
-
-          
-
-          
-          
+            rel="noopener noreferrer"
+          >
+            <div className="overlay">
+              <div className="icon">🏡</div>
+              <div className="name">Renåvangen</div>
+            </div>
+          </a>
         </div>
 
         <p className="members-note">
@@ -92,4 +100,3 @@ export default function Members() {
     </section>
   );
 }
-``;
