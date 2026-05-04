@@ -1,11 +1,12 @@
 :root {
   --nav: #eb4233;
   --bakgrunn: #e9d8a6dc;
-  --bakgrunn-2: #e9ddc1;
+  --bakgrunn-2: #e8d7ae;
   --tekst-nav: #403332;
   --tittel: #c93e40;
   --logo-tekst: #fcefea;
   --aktiv-link: #3b1de2;
   --mid: #5e6b62;
   --white: #f5f5f5;
+  --member-card: #c1c9c1;
 }

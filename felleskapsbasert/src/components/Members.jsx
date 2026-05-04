@@ -11,50 +11,85 @@ export default function Members() {
         </div>
 
         <div className="members-grid">
-          <div className="member-card">
+            <a
+            href="https://www.finnmarkskollektivet.no/"
+            target="_blank"
+            className="member-card"
+            rel="noopener noreferrer"
+          >
             <div className="icon">🏡</div>
-            <div className="name">Fossumkollektivet</div>
-          </div>
-
-          <div className="member-card">
+            <div className="name"> Finnmarkskollektivet</div>
+          </a>
+          <a
+            href="https://www.fossumkollektivet.no/"
+            target="_blank"
+            className="member-card"
+            rel="noopener noreferrer"
+          >
             <div className="icon">🏡</div>
-            <div className="name">Finnmarkskollektivet</div>
-          </div>
-
-          <div className="member-card">
+            <div className="name"> Fossumkollektivet</div>
+          </a>
+ <a
+            href="https://hiimsmoen.no/"
+            target="_blank"
+            className="member-card"
+            rel="noopener noreferrer"
+          >
             <div className="icon">🏡</div>
-            <div className="name">Kvinnekollektivet Arken</div>
-          </div>
-
-          <div className="member-card">
+            <div className="name"> Hiimsmoen</div>
+          </a>
+          <a
+            href="https://www.arkenkvinner.no/"
+            target="_blank"
+            className="member-card"
+            rel="noopener noreferrer"
+          >
             <div className="icon">🏡</div>
-            <div className="name">Hiimsmoen</div>
-          </div>
+            <div className="name"> Kvinnekollektivet Arken</div>
+          </a>
+         
 
-          <div className="member-card">
-            <div className="icon">🏡</div>
-            <div className="name">Phoenix Haga</div>
-          </div>
+         
 
-          <div className="member-card">
+          <a
+               href="https://www.maloykollektivene.no/"
+            target="_blank"
+            className="member-card"
+            rel="noopener noreferrer">
+            <div className="member-card">
             <div className="icon">🏡</div>
             <div className="name">Måløykollektivene</div>
-          </div>
-
-          <div className="member-card">
+          </div></a>
+          <a
+               href="https://www.phoenixhaga.no/"
+            target="_blank"
+            className="member-card"
+            rel="noopener noreferrer">
+            <div className="member-card">
+            <div className="icon">🏡</div>
+            <div className="name">Phonix Haga</div>
+          </div></a>
+          <a
+               href="https://renavangen.no/"
+            target="_blank"
+            className="member-card"
+            rel="noopener noreferrer">
+            <div className="member-card">
             <div className="icon">🏡</div>
             <div className="name">Renåvangen</div>
-          </div>
+          </div></a>
+
+          
+
+          
+          
         </div>
 
         <p className="members-note">
-          Er ditt tiltak ikke på listen?{" "}
-          #
-            Ta kontakt om medlemskap →
-          
+          Er ditt tiltak ikke på listen? # Ta kontakt om medlemskap →
         </p>
       </div>
     </section>
   );
 }
-``
+``;
