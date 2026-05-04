@@ -9,18 +9,18 @@
 }
 .member-card {
   position: relative;
-  min-height: 200px;
+  min-height: 150px;
   border-radius: 6px;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   display: flex;
-  /* padding: 22px 18px; */
+  padding: 22px 18px;
   align-items: flex-end;
-  border: 1.5px solid transparent;
+  border: 1.5px solid var(--logo-tekst);
   overflow: hidden;
   text-decoration: none;
-  color: inherit;
+  color: var(--tekst-nav);
   transition:
     border-color 0.2s,
     box-shadow 0.2s,
@@ -28,17 +28,15 @@
 }
 
 /* mørk overlay for lesbarhet */
-.member-card::before {
+/* .member-card::before {
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 0.65),
-    rgba(0, 0, 0, 0.15)
-  );
+  border:2px solid var(--mid);
+  background: 
+    var(--member-card);
   z-index: 0;
-}
+} */
 
 
 /* innhold over overlay */
@@ -56,14 +54,14 @@
 }
 
 .member-card .name {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   font-weight: 500;
-  color: #fff;
+  color: var(--tittel);
 }
 
 .member-card:hover {
-  border-color: var(--tekst-nav);
-  box-shadow: 0 4px 18px rgba(78, 140, 108, 0.12);
+  border-color: var(--logo-tekst);
+  box-shadow: 0 4px 18px var(--tittel);
   transform: translateY(-3px);
 }
 .members-note {
@@ -72,7 +70,7 @@
   color: var(--mid);
 }
 .members-note a {
-  color: var(--bakgrunn);
+  color: var(--tekst-nav);
   font-weight: 500;
 }
 .members-note a:hover {

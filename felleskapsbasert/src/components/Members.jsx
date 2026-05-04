@@ -1,4 +1,5 @@
 import fossumImg from "../assets/members/Fossumlogo.png";
+import finnmarkskollektivetImg from "../assets/members/Finnmarkskollektivetlogo.png"
 export default function Members() {
   return (
     <section className="members-section" id="medlemmer">
@@ -16,10 +17,11 @@ export default function Members() {
             href="https://www.finnmarkskollektivet.no/"
             target="_blank"
             className="member-card"
+            style={{ backgroundImage: `url(${finnmarkskollektivetImg})` }}
             rel="noopener noreferrer"
           >
             <div className="overlay">
-              <div className="icon">🏡</div>
+            
               <div className="name"> Finnmarkskollektivet</div>
             </div>
           </a>
@@ -31,7 +33,7 @@ export default function Members() {
             rel="noopener noreferrer"
           >
             <div className="overlay">
-              <div className="icon">🏡</div>
+            
               <div className="name"> Fossumkollektivet</div>
             </div>
           </a>
@@ -42,7 +44,7 @@ export default function Members() {
             rel="noopener noreferrer"
           >
             <div className="overlay">
-              <div className="icon">🏡</div>
+              
               <div className="name"> Hiimsmoen</div>
             </div>
           </a>
@@ -53,7 +55,7 @@ export default function Members() {
             rel="noopener noreferrer"
           >
             <div className="overlay">
-              <div className="icon">🏡</div>
+             
               <div className="name"> Kvinnekollektivet Arken</div>
             </div>
           </a>
@@ -65,7 +67,7 @@ export default function Members() {
             rel="noopener noreferrer"
           >
             <div className="overlay">
-              <div className="icon">🏡</div>
+             
               <div className="name">Måløykollektivene</div>
             </div>
           </a>
@@ -76,7 +78,7 @@ export default function Members() {
             rel="noopener noreferrer"
           >
             <div className="overlay">
-              <div className="icon">🏡</div>
+            
               <div className="name">Phoenix Haga</div>
             </div>
           </a>
@@ -87,7 +89,7 @@ export default function Members() {
             rel="noopener noreferrer"
           >
             <div className="overlay">
-              <div className="icon">🏡</div>
+            
               <div className="name">Renåvangen</div>
             </div>
           </a>
