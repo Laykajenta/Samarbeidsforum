@@ -11,7 +11,7 @@ export default function Members() {
     <section className="members-section" id="medlemmer">
       <div className="wrapper">
         <div className="section-header">
-          <p className="section-eyebrow">Nettverk</p>
+        
           <h2 className="section-title">Våre medlemmer</h2>
           <p className="section-sub">
             Kollektiv og terapeutiske samfunn over hele Norge
@@ -26,10 +26,12 @@ export default function Members() {
             style={{ backgroundImage: `url(${finnmarkskollektivetImg})` }}
             rel="noopener noreferrer"
           >
-            <div className="overlay">
+            {/* <div className="overlay"> */}
             
-              <div className="name"></div>
-            </div>
+            <div className="name">
+              Kontaktperson: Matthias Welz
+              </div>
+            {/* </div> */}
           </a>
           <a
             href="https://www.fossumkollektivet.no/"

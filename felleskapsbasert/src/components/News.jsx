@@ -3,7 +3,7 @@ export default function News() {
     <section className="news-section" id="nyheter">
       <div className="wrapper">
         <div className="section-header">
-          <p className="section-eyebrow">Aktuelt</p>
+       
           <h2 className="section-title">Siste nytt</h2>
           <p className="section-sub">
             Meldinger fra Samarbeidsforum og norske kollektiv

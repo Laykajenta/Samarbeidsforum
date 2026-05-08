@@ -5,9 +5,7 @@
 .events-section .section-eyebrow {
   color: var(--tittel);
 }
-.events-section .section-title {
-  color: var(--tekst-nav);
-}
+
 .events-section .section-sub {
   color: var(--tekst-nav);
 }

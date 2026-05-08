@@ -13,6 +13,8 @@ export default function NavBar() {
         <li><a href="#arrangementer">Arrangementer</a></li>
         <li><a href="#medlemmer">Medlemmer</a></li>
         <li><a href="#kontakt">Kontakt</a></li>
+        <li><a href="#innlogging">Innlogging medlemmer</a></li>
+        
       </ul>
     </nav>
   );

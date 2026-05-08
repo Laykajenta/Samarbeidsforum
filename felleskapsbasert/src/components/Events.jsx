@@ -1,9 +1,10 @@
+
 export default function Events() {
   return (
     <section className="events-section" id="arrangementer">
       <div className="wrapper">
         <div className="section-header">
-          <p className="section-eyebrow">Kalender</p>
+       
           <h2 className="section-title">Kommende arrangementer</h2>
           <p className="section-sub">
             Samlinger, konferanser og faglige møteplasser
