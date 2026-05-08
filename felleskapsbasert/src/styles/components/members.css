@@ -77,3 +77,43 @@
 .members-note a:hover {
   text-decoration: underline;
 }
+
+.member-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* tekst under kort */
+.member-info {
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* navn */
+.member-info .name {
+  font-weight: 600;
+  color: var(--nav);
+  font-size: 0.95rem;
+  margin-bottom: 4px;
+}
+
+/* kontaktperson */
+.member-info .person {
+  font-size: 0.8rem;
+  color: var(--tekst-nav);
+}
+
+/* e-post */
+.member-info .email {
+  display: inline-block;
+  margin-top: 3px;
+  font-size: 0.8rem;
+  color: var(--tekst-nav);
+  text-decoration: none;
+}
+
+.member-info .email:hover {
+  text-decoration: underline;
+}
