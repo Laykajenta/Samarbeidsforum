@@ -12,50 +12,51 @@ const members = [
     image: finnmarkImg,
     url: "https://www.finnmarkskollektivet.no/",
     contact: "Matthias Welz",
-    email: "post@finnmarkskollektivet.no",
+    email: "info@finnmarkskollektivet.no",
   },
   {
     name: "Fossumkollektivet",
     image: fossumImg,
     url: "https://www.fossumkollektivet.no/",
-    contact: "Ola Nordmann", // oppdater senere
-    email: "ola@fossum.no",
+    contact: "Rune Sundt", // oppdater senere
+    email: "post@fossumkollektivet.no",
   },
 
-  {
-    name: "Kvinnekollektivet Arken",
-    image: arkenImg,
-    url: "https://www.arkenkvinner.no/",
-    contact: "",
-    email: "",
-  },
+ 
   {
     name: "Hiimsmoen",
     image: hiimsmoenImg,
     url: "https://hiimsmoen.no/",
-    contact: "",
-    email: "",
+    contact: "Laila Gjellestad",
+    email: "post@hiimsmoen.no",
+  },
+   {
+    name: "Kvinnekollektivet Arken",
+    image: arkenImg,
+    url: "https://www.arkenkvinner.no/",
+    contact: "Reidun Wilhelmsen",
+    email: "post@k-arken.no",
   },
   {
     name: "Måløykollektivene",
     image: maloyImg,
     url: "https://www.maloykollektivene.no/",
-    contact: "",
-    email: "",
+    contact: "Aleksander Sagdal",
+    email: "post@maloykollektivene.no",
   },
   {
     name: "Phoenix Haga",
     image: phoenixImg,
     url: "https://www.phoenixhaga.no/",
-    contact: "",
+    contact: "Terje Turøy",
     email: "",
   },
   {
     name: "Renåvangen",
     image: renavangenImg,
     url: "https://renavangen.no/",
-    contact: "",
-    email: "",
+    contact: "Rigmor Sandodden Østby",
+    email: "post@renavangen.no",
   },
 ];
 
