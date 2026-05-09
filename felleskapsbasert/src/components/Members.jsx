@@ -90,11 +90,11 @@ export default function Members() {
 
 <div className="member-info">
   {member.contact && member.email && (
-    <div className="contact-line">
-      Kontakt:{" "}
+    <div className="contact">
+      Kontakt: 📨{" "}
       <a
         href={`mailto:${member.email}`}
-        className="contact-link"
+        className="email"
       >
         {member.contact}
       </a>

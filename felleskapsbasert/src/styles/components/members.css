@@ -109,11 +109,13 @@
 .member-info .email {
   display: inline-block;
   margin-top: 3px;
-  font-size: 0.8rem;
-  color: var(--tekst-nav);
+  font-size: 1rem;
+  color: var(--tittel);
   text-decoration: none;
 }
 
 .member-info .email:hover {
   text-decoration: underline;
+  color: var(--nav);
+  font-weight: bolder;
 }
