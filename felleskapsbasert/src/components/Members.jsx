@@ -65,7 +65,7 @@ export default function Members() {
     <section className="members-section" id="medlemmer">
       <div className="wrapper">
         <div className="section-header">
-          <p className="section-eyebrow">Nettverk</p>
+        
           <h2 className="section-title">Våre medlemmer</h2>
           <p className="section-sub">
             Kollektiv og terapeutiske samfunn over hele Norge
