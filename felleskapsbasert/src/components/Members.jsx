@@ -49,7 +49,7 @@ const members = [
     image: phoenixImg,
     url: "https://www.phoenixhaga.no/",
     contact: "Terje Turøy",
-    email: "",
+    email: "post@phonixhaga.no",
   },
   {
     name: "Renåvangen",
@@ -86,17 +86,23 @@ export default function Members() {
                 ></div>
               </a>
 
-              <div className="member-info">
-                <div className="name">{member.name}</div>
-                <div className="person">{member.contact}</div>
+              
 
-                <a
-                  href={`mailto:${member.email}`}
-                  className="email"
-                >
-                  ✉️ {member.email}
-                </a>
-              </div>
+<div className="member-info">
+  {member.contact && member.email && (
+    <div className="contact-line">
+      Kontakt:{" "}
+      <a
+        href={`mailto:${member.email}`}
+        className="contact-link"
+      >
+        {member.contact}
+      </a>
+    </div>
+  )}
+</div>
+
+
             </div>
           ))}
         </div>
