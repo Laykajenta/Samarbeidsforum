@@ -5,8 +5,13 @@ import Events from "./components/Events";
 import Members from "./components/Members";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Login from "./pages/Login";
 
 export default function App() {
+  return <Login />;
+}
+
+/* export default function App() {
   return (
     <>
       <NavBar />
@@ -18,4 +23,4 @@ export default function App() {
       <Footer />
     </>
   );
-}
+} */
